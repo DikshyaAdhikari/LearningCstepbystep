@@ -1,0 +1,18 @@
+//
+//  main.c
+//  hello
+//
+//  Created by Dikshya Adhikari on 5/9/20.
+//  Copyright © 2020 DikshyaAdhikari. All rights reserved.
+//
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main() {
+    //int num= 6;
+    /* We are also exploring writing comments*/
+    printf("Have a habit of commenting in your codes.");
+    
+    return 0;
+}
