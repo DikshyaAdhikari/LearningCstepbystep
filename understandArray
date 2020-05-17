@@ -1,0 +1,23 @@
+//
+//  main.c
+//  hello
+//
+//  Created by Dikshya Adhikari on 5/9/20.
+//  Copyright © 2020 DikshyaAdhikari. All rights reserved.
+//
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main() {
+    //int luckyNumbers[]={4, 8, 16, 24, 32, 66};
+   // printf("%d",luckyNumbers[2]); simply print
+    //luckyNumbers[1]=10;
+    //printf("%d", luckyNumbers[1]); modify and print
+    
+    //array to hold 10 items
+    int luckyNumbers[10];
+    luckyNumbers[1]=100;
+    printf("%d",luckyNumbers[1]);
+    return 0;
+}
