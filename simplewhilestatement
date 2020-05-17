@@ -1,0 +1,19 @@
+//
+//  main.c
+//  hello
+//
+//  Created by Dikshya Adhikari on 5/9/20.
+//  Copyright © 2020 DikshyaAdhikari. All rights reserved.
+//
+
+#include <stdio.h>
+#include<stdlib.h>
+
+
+int main() {
+    int index =1;
+    while(index<=5){
+        printf("%d\n",index);
+        index++ ;
+    }
+}
