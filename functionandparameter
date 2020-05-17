@@ -1,0 +1,24 @@
+//
+//  main.c
+//  hello
+//
+//  Created by Dikshya Adhikari on 5/9/20.
+//  Copyright © 2020 DikshyaAdhikari. All rights reserved.
+//
+
+#include <stdio.h>
+#include<stdlib.h>
+
+void sayHi(char name[],int age){
+    printf("Hello %s, you are %d\n",name,age);
+    }
+
+int main() {
+    
+    sayHi("Dikshya",26);
+    sayHi("Mike",50);
+    sayHi("John",70);
+    sayHi("Era",15);
+    
+    return 0;
+}
