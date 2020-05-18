@@ -1,0 +1,28 @@
+//
+//  main.c
+//  hello
+//
+//  Created by Dikshya Adhikari on 5/9/20.
+//  Copyright © 2020 DikshyaAdhikari. All rights reserved.
+//
+
+#include <stdio.h>
+#include<stdlib.h>
+
+
+int main() {
+    
+    int age=30;
+    int * pAge = &age;
+    
+    double gpa =3.8;
+    double * pGpa = &gpa;
+    char grade ='A';
+    char * aGrade = &grade;
+    printf("age:%p\ngpa:%p\ngrade:%p\n", &age, &gpa, &grade);
+    printf("%d\n", * pAge);
+    printf("%f\n", * pGpa);
+    printf("%c", * aGrade);
+    
+    return 0;
+}
